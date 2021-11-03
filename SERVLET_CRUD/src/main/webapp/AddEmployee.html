@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add Employee Form</title>
+</head>
+<body bgcolor="lightgreen">
+<h2 align="center">Add Employe Record</h2>
+<form   action="AddEmployeeServlet" method="post">
+ <table align=center width=400 height=300>
+ <tr>
+ <td>Enter Name</td>
+ <td><input type="text" name="name" placeholder="Name"  required></td>
+ </tr>
+ <tr>
+ <td>Select Gender</td>
+ <td><input type="text" name="gender" placeholder="Gender" required></td>
+ </tr>
+ 
+ <tr>
+ <td>Enter Email Address</td>
+ <td><input type="email" name="email" placeholder="Email Address"requried></td>
+ </tr>
+ 
+ <tr>
+ <td>Enter password</td>
+ <td><input type="password" name="pwd" placeholder="password"required></td>
+ </tr>
+ 
+ <tr>
+ <td>Select Department</td>
+ <td>
+ <select name="department" requried>
+ <option value="">---Select---</option>
+ <option value="Marketing">Marketing</option>
+ <option value="Finance">Finance</option>
+ <option value="Technical">Technical</option>
+ <option value="others">Others</option>
+ </select>
+ </td>
+ </tr>
+ 
+ <tr>
+ <td>Enter Location</td>
+ <td><input type="text" name="location" placeholder="Location" requried></td>
+ </tr>
+ <tr><td></td><td></tr>
+ <tr><td></td><td></td>
+ <tr align=center>
+ <td colspan=2><input type="submit" value="Add Employee"></td>
+ </tr>
+ </table>
+</form>
+</body>
+</html>
